@@ -1,0 +1,16 @@
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+Homepage: http://www.vervest.org/fiki/bin/view/HTP/WebHome
+
+Package: htpdate-perl
+Version: 0.9.1
+Maintainer: boyska <piuttosto@logorroici.org>
+Depends: curl libdatetime-perl libdatetime-format-dateparse-perl libgetopt-long-descriptive-perl libtry-tiny-perl
+Files: htpdate /usr/sbin/
+
+Description: HTTP Time Protocol (HTP) synchronizes time with web servers as time source.
+ The htpdate utility retrieves the date and time from remote web servers via
+ the network. Htpdate works through proxy servers as it behaves similar to a
+ browser. Accuracy of htpdate will be usually within 0.5 seconds (better with
+ multiple servers). If this accuracy is not good enough for you, try NTP. 
