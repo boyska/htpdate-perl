@@ -7,8 +7,8 @@ Package: htpdate-perl
 Version: 0.9.1
 Maintainer: boyska <piuttosto@logorroici.org>
 Depends: curl,libdatetime-perl,libdatetime-format-dateparse-perl,libgetopt-long-descriptive-perl,libtry-tiny-perl
-Files: htpdate /usr/sbin/
- default /etc/default/htpdate
+Files: sbin/htpdate /usr/
+ default/htpdate /etc/
 
 Description: HTTP Time Protocol (HTP) synchronizes time with web servers as time source.
  The htpdate utility retrieves the date and time from remote web servers via
